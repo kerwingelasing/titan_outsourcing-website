@@ -11,7 +11,10 @@
     font-family: "myFirstFont";
 }
 
-
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 @keyframes slidein {
     from {
       width: 0;
