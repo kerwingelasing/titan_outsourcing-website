@@ -1,12 +1,39 @@
-body{
-    font-family: Arial;
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button:hover{
+    cursor: pointer;
+}
+.h-body{
+    font-family: "myFirstFont";
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@keyframes slidein {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+
 .about{
     font-size: 38px;
     justify-content: center;
     text-align: center;
     color: #405230;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 20px;
 }
 .pamagat2{
@@ -150,7 +177,7 @@ body{
     
 }
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1020px) {
 
     .unod1{
         display: flex;
@@ -246,14 +273,14 @@ body{
         background-color: #E4ECD4;
         
     }
-    .picrowbabaw{
-        /* position: absolute;
+    /* .picrowbabaw{
+        position: absolute;
         margin-top: -70px;
         display: flex;
-        flex-direction: row; */
+        flex-direction: row;
     }
     .picrowbabaw img{  
-    }
+    } */
     .pamagat5 hr{
         width: 30%;
         color: #E4ECD4;
